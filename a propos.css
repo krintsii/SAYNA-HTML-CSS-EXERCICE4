@@ -1,0 +1,169 @@
+/* pour le tout  */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    overflow-x: hidden;
+    color: var(--blanc);
+}
+p{
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+:root{
+    --Rouge:#B11313;
+    --jaune:#f1c530;
+    --blanc:#FFFF;
+    --bleu:#114C92;
+    --noir:#000000;
+
+}
+
+@font-face {
+    font-family: 'FarFromHomecoming';
+    src: url(Assets/Far-From\ Homecoming\ Updated.otf);
+}
+/* pour le nav  */
+nav{
+    background-color: var(--Rouge);
+    padding: 20px;
+   
+}
+nav div img {
+    padding-left: 10px;
+}
+
+nav ul{
+    list-style: none;
+    color: var(--blanc);
+    font-weight: 400;
+}
+/* pour le header  */
+header {
+    background-color: var(--jaune);
+    background-image: url(Assets/Illustration/img5.png);
+    background-repeat: no-repeat;
+    transform: rotateY(180deg);
+    padding-top: 50px;
+    padding-bottom: 90px;
+}
+header h1{
+    font-family: 'FarFromHomecoming' ;
+    font-size: 90px;
+    padding-left: 90px ;
+    padding-top: 80px;
+    margin-top: 80px;
+}
+header p {
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 90px ;
+    font-size: 30px;
+    padding-top: 20px;
+    margin-bottom: 80px;
+}
+/* pour le formulaire  */
+section {
+    background-color: var(--Rouge);
+    padding: 50px 90px;
+}
+h1{
+    font-family: 'FarFromHomecoming' ;
+}
+p{
+    font-family: 'Montserrat', sans-serif;  
+    text-align: justify;
+}
+section input{
+    font-family: 'Montserrat', sans-serif; 
+    background-color:var(--Rouge);
+    align-items: center;
+    font-size: 14px;
+    width: 90%;
+    border-radius: 20px;
+    border: 2px solid  var(--blanc);
+    padding-left: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: 20px;
+}
+section input::placeholder{
+   color: var(--blanc);
+}
+.message {
+    padding: 10px 5px 160px 9px;
+}
+.border {
+    border: solid var(--blanc);
+    margin: 40px 0 10px 120px;
+    color: var(--blanc); 
+    width: 150px;
+    border-radius: 60px;
+    
+}
+
+/* pour le contenu bleu  */
+
+main {
+    background-color: var(--bleu);
+    padding: 40px 120px;
+}
+
+.borders {
+    font-family: 'Montserrat', sans-serif; 
+    width: 20%;
+    border: solid var(--blanc);
+    color: var(--blanc);
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+
+/* pour le footer  */
+footer {
+    background-color: var(--noir);
+    font-family: 'Montserrat', sans-serif; 
+    padding-top: 50px;
+    padding-bottom: 30px;
+    width: 100%;
+}
+footer ul {
+    list-style: none;
+    text-align: center;
+    align-items: center;
+    color: var(--blanc);
+    margin-left: 80px;
+}
+footer ul li {
+   padding: 0 20px 0 20px;
+   font-size: 13px;
+   
+}
+.select{
+    background-color: var(--Rouge);
+    color: var(--blanc);
+    border: solid var(--noir);
+    width: 100%;
+    padding: 2px 40px 2px 5px ;
+    border-radius: 20px; 
+}
+
+footer div {
+    text-align: center;
+}
+footer div i img {
+    background-color: var(--Rouge);
+    border-radius: 20px;
+    padding: 10px ;
+    margin: 80px 10px 20px 10px;
+}
+footer p {
+    font-family: 'Montserrat', sans-serif; 
+    text-align: center;
+}
