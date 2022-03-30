@@ -23,11 +23,11 @@
     section .row .col figure img {
         width: 100%;
     }
-    figcaption {
-        width: 478px;
-        height: 340px;
+    .d-block {
         
+        width: 540px;
     }
+    
     figcaption h4 {
         padding-top: 80px;
     }
@@ -46,6 +46,19 @@
         padding-left: 100px;
     }
 }
+@media screen and (max-width:681px) {
+    .d-block {
+        
+        width: 450px;
+    }
+}
+@media screen and (max-width:590px) {
+    .d-block {
+        
+        width: 400px;
+    }
+}
+
 
 @media screen and (max-width:570px) {
     figcaption {
@@ -67,5 +80,25 @@
     .mobile div {
         text-align: left;
         padding-left: 90px;
+    }
+}
+
+@media screen and (max-width:545px) {
+    .d-block {
+        
+        width: 350px;
+    }
+}
+@media screen and (max-width:482px) {
+    .d-block {
+        
+        width: 300px;
+    }
+}
+
+@media screen and (max-width:418px) {
+    .d-block {
+        
+        width: 200px;
     }
 }

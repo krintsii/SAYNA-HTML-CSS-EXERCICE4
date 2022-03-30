@@ -78,36 +78,38 @@ section {
     background-color: var(--jaune);
     padding: 80px;
     text-align: center;
+    justify-content: center;
 
 }
-
-figure{
-    width: 100%;
-    margin-left: 0;
-    margin-right: 0;
-    margin-bottom: 30px;
+section .row {
+    margin: 0 0px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
-figcaption{
+
+
+
+
+.figcaption{
     font-family: 'Montserrat', sans-serif;
-    margin: 0 auto;
-    width: 324px;
-    height: 340px;
-    border-bottom:9px solid;
-    border-right:9px solid;
-    border-left:9px solid;
+    border-bottom:8px solid;
+    border-right:8px solid;
+    border-left:8px solid;
     border-radius: 0px 0px 20px 20px;
-    text-align: left;
-    padding: 0 20px 10px 20px; 
+    text-align: justify;
+    padding: 20px;
+    margin: 0 0 20px 0;
     line-height: 25px;
 }
-figcaption h4 {
+.figcaption h4 {
     text-align: center;
     font-weight: 700;
 }
-figcaption p {
-    font-size: 13px;
+.figcaption p {
+    font-size: 16px;
 }
-figcaption p span{
+.figcaption p span{
     font-weight: bold;
 }
 
