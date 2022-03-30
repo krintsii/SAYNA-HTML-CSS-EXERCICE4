@@ -13,6 +13,13 @@ p{
     margin-bottom: 0;
     font-size: 14px;
 }
+a {
+    color: var(--blanc);
+    text-decoration: none;
+}
+a:hover {
+    color: var(--blanc);
+}
 
 :root{
     --Rouge:#B11313;

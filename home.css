@@ -13,7 +13,13 @@ p{
     margin-bottom: 0;
     font-size: 14px;
 }
-
+a {
+    color: var(--blanc);
+    text-decoration: none;
+}
+a:hover {
+    color: var(--blanc);
+}
 :root{
     --Rouge:#B11313;
     --jaune:#f1c530;
@@ -46,13 +52,14 @@ nav ul{
 main{
     padding-top: 20px;
     background-color: var(--Rouge);
+    background-size: contain;
     background-image: url(Assets/Illustration/img1.png);
     background-position: 100% 0%;
     background-repeat: no-repeat;
     width: 100%;
 }
 .marvel {
-    
+
     padding-top: 100px;
     padding-left: 150px;
     padding-bottom: 50px;
@@ -138,6 +145,16 @@ section {
     text-align: center;
     margin-top: 50px;
 }
+input{
+    font-family: 'Montserrat', sans-serif; 
+    width: 80%;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: 20px;
+}
+
 
 .formulaire h1{
     font-family: 'FarFromHomecoming' ;
@@ -151,6 +168,10 @@ section {
 /* le deuxieme section  */
 .spiderman-noir{
     background-color: var(--Rouge);
+    background-image: url(Assets/Illustration/img6.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 125% 0%;
     padding: 10px 10px 0px 10px;
     text-align: left;
 }
@@ -158,6 +179,7 @@ section {
     font-family: 'FarFromHomecoming' ;
     color: var(--blanc); 
     font-size: 29px;
+    
 }
 .formulaire2{
     margin-top: 8rem;
@@ -171,7 +193,7 @@ section {
     
 }
 .formulaire2 input{
-    width: 70%;
+    width: 50%;
     background-color: var(--Rouge);
     border: 2px solid var(--blanc);
     border-radius: 20px;
@@ -192,6 +214,7 @@ section {
     font-family: 'Montserrat', sans-serif; 
     border-radius: 20px;
     margin-left: 70px;
+    margin-bottom: 50px;
 }
 
 
@@ -243,3 +266,8 @@ footer p {
     text-align: center;
     color: var(--blanc);
 }
+footer audio {
+   padding-top: 20px;
+}
+
+

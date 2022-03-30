@@ -20,7 +20,13 @@ p{
     --blanc:#FFFF;
     --bleu:#114C92;
     --noir:#000000;
-
+}
+a {
+    color: var(--blanc);
+    text-decoration: none;
+}
+a:hover {
+    color: var(--blanc);
 }
 
 @font-face {
@@ -45,6 +51,8 @@ nav ul{
 /* pour le header  */
 header{
     background-image: url(Assets/Illustration/img19.png);
+    background-repeat:no-repeat ;
+    background-size: cover;
     padding-top: 50px;
     padding-bottom: 50px;
     padding-left: 70px;
@@ -128,6 +136,7 @@ section p span{
 .meilleur{
     margin-left: 160px;
 }
+
 
 /* pour le main  */
 main {

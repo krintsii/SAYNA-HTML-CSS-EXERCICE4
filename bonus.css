@@ -20,6 +20,7 @@ a:hover {
     color: var(--blanc);
 }
 
+
 :root{
     --Rouge:#B11313;
     --jaune:#f1c530;
@@ -35,7 +36,7 @@ a:hover {
 }
 /* pour le nav  */
 nav{
-    background-color: var(--jaune);
+    background-color: var(--Rouge);
     padding: 20px;
    
 }
@@ -48,71 +49,31 @@ nav ul{
     color: var(--blanc);
     font-weight: 400;
 }
-/* pour le header  */
-header {
-    background-image: url(Assets/Illustration/img7.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: right left ;
-    padding-left: 8%;
-    padding-bottom: 50px;
-    
-}
-header h1 {
-    font-family: 'FarFromHomecoming' ;
-    color: var(--blanc);
-    font-size: 100px;
-    margin-top: 250px;
-}
-header p {
-    font-family: 'Montserrat', sans-serif;
-    color: var(--blanc);
-    font-size: 30px;
-    font-weight: 600;
-    text-shadow: 2px 2px var(--noir);
-    padding-bottom: 90px;
-}
 
 /* pour le section  */
 section {
-    background-color: var(--jaune);
-    padding: 80px;
-    text-align: center;
+    background-image: url(Assets/Illustration/img35.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom ;
+    height: 63vh;
+    padding: 50px;
 
 }
-
-figure{
-    width: 100%;
-    margin-left: 0;
-    margin-right: 0;
-    margin-bottom: 30px;
+h1{
+    font-family: 'FarFromHomecoming';
+    font-size: 80px;
+    color: var(--blanc);
+    margin-top: 200px;
 }
-figcaption{
+section p{
     font-family: 'Montserrat', sans-serif;
-    margin: 0 auto;
-    width: 324px;
-    height: 340px;
-    border-bottom:9px solid;
-    border-right:9px solid;
-    border-left:9px solid;
-    border-radius: 0px 0px 20px 20px;
-    text-align: left;
-    padding: 0 20px 10px 20px; 
-    line-height: 25px;
+    color: var(--blanc);
+    margin-bottom: 0;
+    margin-top: 80px;
+    font-size: 30px;
+    font-weight: 500;
 }
-figcaption h4 {
-    text-align: center;
-    font-weight: 700;
-}
-figcaption p {
-    font-size: 13px;
-}
-figcaption p span{
-    font-weight: bold;
-}
-
-
-
 /* pour le footer  */
 footer {
     background-color: var(--noir);
@@ -134,7 +95,7 @@ footer ul li {
    
 }
 .select{
-    background-color: var(--jaune);
+    background-color: var(--Rouge);
     color: var(--blanc);
     border: solid var(--noir);
     width: 100%;
@@ -146,7 +107,7 @@ footer div {
     text-align: center;
 }
 footer div i img {
-    background-color: var(--jaune);
+    background-color: var(--Rouge);
     border-radius: 20px;
     padding: 10px ;
     margin: 80px 10px 20px 10px;

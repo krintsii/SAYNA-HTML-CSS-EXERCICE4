@@ -11,44 +11,51 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
         <!-- lien pour le css  -->
         <link rel="stylesheet" href="home.css">
+        <!-- pour le responsive  -->
+        <link rel="stylesheet" href="home-responsive.css">
         <!-- font family  -->
         <link href="http://fonts.cdnfonts.com/css/montserrat" rel="stylesheet">
         <title>home</title>
     </head>
     <body>
-        <nav class="d-flex justify-content-center align-items-center">
+        <nav class="d-flex  justify-content-center align-items-center">
             <div style="margin-right: 100px;">
-                <img src="Assets/Logo/logo1.png" alt="">
-                <img src="Assets/Logo/logo2.png" alt="">
-                <img src="Assets/Logo/logo3.png" alt="">
+                <a href="bonus.html"><img src="Assets/Logo/logo1.png" alt=""></a>
+                <a href="bonus.html"><img src="Assets/Logo/logo2.png" alt=""></a>
+                <a href="bonus.html"><img src="Assets/Logo/logo3.png" alt=""></a>
             </div>
             <div>
                 <ul class="d-flex align-items-center mb-0 fs-5">
-                    <li class="pt-0 pb-0 p-5">Acceuil</li>
-                    <li class="pt-0 pb-0 p-5">Adversaire</li>
-                    <li class="pt-0 pb-0 p-5">heros</li>
-                    <li class="pt-0 pb-0 p-5">A propos</li>
+                    <a href="home.html"><li class="pt-0 pb-0 p-5">Acceuil</li></a>
+                    <a href="adversaire.html"><li class="pt-0 pb-0 p-5">Adversaire</li></a>
+                    <a href="heros.html"><li class="pt-0 pb-0 p-5">heros</li></a>
+                    <a href="a propos.html"><li class="pt-0 pb-0 p-5">A propos</li></a>
+                    <p class="fs-1 fw-bold d-md-none">...</p>
                 </ul>
             </div>
         </nav>
         <main>
             <div class="marvel">
-                <h1 class="text-uppercase pb-4">
-                    spiderman
-                </h1>
-                <div>
-                    <button class="btn btn-light p-3 color ">
-                        voirs les heros
-                    </button>
-                    <button class="btn p-3 border  ">
-                        vois les adversaire 
-                    </button>
+                <div class="phone1">
+                    <h1 class="text-uppercase pb-md-4">
+                        spiderman
+                    </h1>
+                    <h4 class="pt-1 fs-md-3 fs-5 d-md-none ">L'araignée sympa du quartier !</h4>
+                    <div>
+                        <button class="btn btn-light p-3 color ">
+                            voirs les heros
+                        </button>
+                        <button class="btn p-3 border  ">
+                            vois les adversaire 
+                        </button>
+                    </div>
                 </div>
+                
                 <div>
-                    <h4 class="pt-4 fs-3 ">L'araignée sympa du quartier !</h4>
+                    <h4 class="pt-4 fs-3 mobile1">L'araignée sympa du quartier !</h4>
                 </div>
-                <div>
-                    <h1 class="text-uppercase mb-3 " style="font-size: 42px;"> 
+                <div class="mt-md-0 mt-5 mobile2">
+                    <h1 class="text-uppercase mb-3 fs-1 " style="font-size: 42px;"> 
                         les spiderman au cinéma
                     </h1>
                     <p>
@@ -114,8 +121,8 @@
             </div>                                            
         </section>
         <div>
-            <div class="row spiderman-noir">
-                <div class="col-md-6 formulaire2">
+            <div class=" spiderman-noir">
+                <div class="formulaire2">
                     <h1 class="text-uppercase">inscription à la news letter </h1>
                     <p class="mb-4">l'univers de l'araignée justicière te passionne? Reste au courant des dernières actualités grâce à notra newsletter !</p>
                     <input class="mt-5 mb-4 pt-1 pb-1" type="text" placeholder="Nom et Prénom">
@@ -130,13 +137,11 @@
                    
 
                 </div>
-                <div class="col-md-6">
-                    <img   src="Assets/Illustration/img6.png" alt="">
-                </div>
+
             </div>
         </div>
         <footer>
-            <ul class="d-flex">
+            <ul class="d-md-flex d-none">
                 <li>
                     Mobile app
                 </li>
@@ -146,11 +151,13 @@
                 <li>
                     cookies
                 </li>
-                <li>
-                    <img src="Assets/Logo/logo1.png" alt="">
-                    <img src="Assets/Logo/logo2.png" alt="">
-                    <img src="Assets/Logo/logo3.png" alt="">
-                </li>
+                <a href="bonus.html">
+                    <li>
+                        <img src="Assets/Logo/logo1.png" alt="">
+                        <img src="Assets/Logo/logo2.png" alt="">
+                        <img src="Assets/Logo/logo3.png" alt="">
+                    </li>
+                </a>
                 <li>
                     Contact
                 </li>
@@ -163,14 +170,46 @@
                     </select>
                 </li>
             </ul>
+            <!-- pour le responsive de mobile  -->
+            <div class="d-flex d-md-none mobile3 ">
+                <ul>
+                    <li>
+                        Mobile app
+                    </li>
+                    <li>
+                        Politique de confidentialité
+                    </li>
+                    <li>
+                        cookies
+                        Contact
+                    </li>
+                    <li>
+                        Blog
+                    </li>
+                </ul>
+                <div>
+                    <select name="" id="" class="select">
+                        <option value="">langue</option>
+                    </select>
+                </div>
+            </div>
+
             <div>
+                <!-- cela aussi pour le footer responsive  -->
+                <div class="d-md-none pb-0">
+                    <img src="Assets/Logo/logo1.png" alt="">
+                    <img src="Assets/Logo/logo2.png" alt="">
+                    <img src="Assets/Logo/logo3.png" alt="">
+                </div>
                 <i><img src="Assets/Logo/logof.png" alt=""></i>
                 <i><img src="Assets/Logo/logoi.png" alt=""></i>
                 <i><img src="Assets/Logo/logoy.png" alt=""></i>
                 <i><img src="Assets/Logo/logot.png" alt=""></i>
-               
-            </div>
+
             <p>&copy; SaynaxMarvel, Inc. 2022. We love Our Users!</p> 
+            <audio src="Assets/audio1.mp3" controls></audio>
+            </div>
+           
         </footer>
     </body>
     </html>

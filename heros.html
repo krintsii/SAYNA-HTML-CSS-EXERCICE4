@@ -11,6 +11,8 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
         <!-- lien pour le css  -->
         <link rel="stylesheet" href="heros.css">
+        <!-- pour le responsive  -->
+        <link rel="stylesheet" href="heros-responsive.css">
         <!-- font family  -->
         <link href="http://fonts.cdnfonts.com/css/montserrat" rel="stylesheet">
         <title>heros</title>
@@ -18,16 +20,18 @@
     <body>
         <nav class="d-flex justify-content-center align-items-center">
             <div style="margin-right: 100px;">
-                <img src="Assets/Logo/logo1.png" alt="">
-                <img src="Assets/Logo/logo2.png" alt="">
-                <img src="Assets/Logo/logo3.png" alt="">
+                <a href="bonus.html"><img src="Assets/Logo/logo1.png" alt=""></a>
+                <a href="bonus.html"><img src="Assets/Logo/logo2.png" alt=""></a>
+                <a href="bonus.html"><img src="Assets/Logo/logo3.png" alt=""></a>
+                
             </div>
             <div>
                 <ul class="d-flex align-items-center mb-0 fs-5">
-                    <li class="pt-0 pb-0 p-5">Acceuil</li>
-                    <li class="pt-0 pb-0 p-5">Adversaire</li>
-                    <li class="pt-0 pb-0 p-5">heros</li>
-                    <li class="pt-0 pb-0 p-5">A propos</li>
+                    <a href="home.html"><li class="pt-0 pb-0 p-5">Acceuil</li></a>
+                    <a href="adversaire.html"><li class="pt-0 pb-0 p-5">Adversaire</li></a>
+                    <a href="heros.html"><li class="pt-0 pb-0 p-5">heros</li></a>
+                    <a href="a propos.html"><li class="pt-0 pb-0 p-5">A propos</li></a>
+                    <p class="fs-1 fw-bold d-md-none">...</p>
                 </ul>
             </div>
         </nav>
@@ -155,22 +159,27 @@
                 </p>
             </div>
         </div>
-        <div class="mt-5">
+        <div class="mt-5 seul">
             <h1>
                 JAMA/S SEUL
             </h1>
             <p class="fs-5 ">Son entourage proche</p>
         </div>
-        <div class="row">
+        <div class="d-block d-md-none">
+            <h1 class="fs-2 text-center mt-5 pt-5 pb-5" style="float: left;">DES MEILLEURS AMS</h1>
+        </div>
+        <div class="row row-peter">
             <div class="col">
                     <img class="peter" src="Assets/Illustration/img21.png" alt="">
                     <div>
-                       <img class="parker" src="Assets/Illustration/img22.png" alt="">
+                       <img class="parker img-fluid" src="Assets/Illustration/img22.png" alt="">
                     </div>
                     
             </div>
             <div class="col meilleur">
-                <h1 class="fs-2 text-center">DES MEILLEURS AMS</h1>
+                <div class="d-none d-md-block " >
+                    <h1 class="fs-2 text-center pt-5 ">DES MEILLEURS AMS</h1>
+                </div>
                 <p>
                     Harry Osborn est le meilleur ami de Peter Parker. Il s'agira
                     pourtant d'une amitié à double tranchant, Harry voulant
@@ -196,9 +205,47 @@
             </div>
             <div class="row mt-5">
                 <div class="col">
-                    <h1>
+                    <h1 class="stacy" >
                         MI GWEN STACY
                     </h1>
+                    <div class="d-none">
+                        <p>
+                            MJ et Gwen Stacy, sont les love interest de Peter Parker. Mary Jane est la
+                            fille populaire du lycée et sortira d'abord avec Harry Osborn mais elle sera le
+                            principal amour de Peter et deviendra sa femme. Dans les films de Marvel,
+                            Michelle Jones est une adolescente cynique et très intelligente. Elle s'ouvrira
+                            peu à peu avec Ned Leeds et Peter et tombera amoureuse de lui. Leur
+                            relation sera mise à mal par la révélation de l'identité de Parker au monde
+                            entier dans No Way Home.
+                        </p>
+                        <p>
+                            Gwen Stacy est également un grand amour de Peter. Jugée moins
+                            superficielle que Mary Jane elle partage la passion des sciences avec Peter
+                            et leur relation sera mise à l'épreuve par ses absences répétées. Lorsque son
+                            père meurt alors qu'il découvre l'identité de Spider Man, il demandera à
+                            Peter de garder sa fille loin du danger et donc de lui ce qui engendrera une
+                            grande culpabilité chez notre héros. Gwen finira par mourir de la main du
+                            Bouffon Vert (ou d'Electro dans the Amazing Spider Man 2) et Peter
+                            retournera vers MJ.
+                        </p>
+                        <p class="mt-2">
+                            Avec ces relations Spider Man apprendra à concilier sa vie affective et son
+                            activité de justicier masqué ainsi que le sens du mot sacrifice.
+                        </p>
+                    </div>
+                </div>
+                <div class="col text-center pt-0 pb-0 p-1">
+                    <div class="d-flex justify-content-center text-center ">
+                        <img class="pt-0 pb-0 p-4 fille" src="Assets/Illustration/img23.png" alt="">
+                        <img class="pt-0 pb-0 p-4 fille d-md-none"src="Assets/Illustration/img25.png" alt="">
+                        <img class="pt-0 pb-0 p-4 fille" src="Assets/Illustration/img24.png" alt="">
+                        
+                    </div>
+                    <div class="text-center align-items-center d-none d-md-block ">
+                        <img  src="Assets/Illustration/img25.png" alt="">
+                    </div>
+                </div>
+                <div class="pt-5 d-md-none">
                     <p>
                         MJ et Gwen Stacy, sont les love interest de Peter Parker. Mary Jane est la
                         fille populaire du lycée et sortira d'abord avec Harry Osborn mais elle sera le
@@ -223,20 +270,11 @@
                         activité de justicier masqué ainsi que le sens du mot sacrifice.
                     </p>
                 </div>
-                <div class="col text-center pt-0 pb-0 p-1">
-                    <div class="d-flex justify-content-center text-center">
-                        <img class="pt-0 pb-0 p-4" src="Assets/Illustration/img23.png" alt="">
-                        <img class="pt-0 pb-0 p-4" src="Assets/Illustration/img24.png" alt="">
-                    </div>
-                    <div class="text-center align-items-center ">
-                        <img src="Assets/Illustration/img25.png" alt="">
-                    </div>
-                </div>
             </div>
         </div>
     </section>
-    <main>
-        <div class="row">
+    <main class="d-none d-md-block">
+        <div class="row  ">
             <div class="col" style="padding-top: 80px;padding-bottom: 50px;padding-left: 130px;padding-right: 30px;">
                 <h1 class="fs-3 mb-4 pb-5"> LES AVENGERS</h1>
                 <div class="row">
@@ -290,7 +328,7 @@
             </div>
         </div>
     </main>
-    <div class="univers">
+    <div class="univers d-none d-md-block">
         <div class="row row-class">
             <div class="col"></div>
             <div class="col spidey">
@@ -333,7 +371,7 @@
 
 
     <footer>
-        <ul class="d-flex">
+        <ul class="d-md-flex d-none">
             <li>
                 Mobile app
             </li>
@@ -343,11 +381,13 @@
             <li>
                 cookies
             </li>
-            <li>
-                <img src="Assets/Logo/logo1.png" alt="">
-                <img src="Assets/Logo/logo2.png" alt="">
-                <img src="Assets/Logo/logo3.png" alt="">
-            </li>
+            <a href="bonus.html">
+                <li>
+                    <img src="Assets/Logo/logo1.png" alt="">
+                    <img src="Assets/Logo/logo2.png" alt="">
+                    <img src="Assets/Logo/logo3.png" alt="">
+                </li>
+            </a>
             <li>
                 Contact
             </li>
@@ -360,14 +400,46 @@
                 </select>
             </li>
         </ul>
+        <!-- pour le responsive de mobile  -->
+        <div class="d-flex d-md-none mobile3 ">
+            <ul>
+                <li>
+                    Mobile app
+                </li>
+                <li>
+                    Politique de confidentialité
+                </li>
+                <li>
+                    cookies
+                    Contact
+                </li>
+                <li>
+                    Blog
+                </li>
+            </ul>
+            <div>
+                <select name="" id="" class="select">
+                    <option value="">langue</option>
+                </select>
+            </div>
+        </div>
+
         <div>
+            <!-- cela aussi pour le footer responsive  -->
+            <div class="d-md-none pb-0">
+                <img src="Assets/Logo/logo1.png" alt="">
+                <img src="Assets/Logo/logo2.png" alt="">
+                <img src="Assets/Logo/logo3.png" alt="">
+            </div>
             <i><img src="Assets/Logo/logof.png" alt=""></i>
             <i><img src="Assets/Logo/logoi.png" alt=""></i>
             <i><img src="Assets/Logo/logoy.png" alt=""></i>
             <i><img src="Assets/Logo/logot.png" alt=""></i>
-           
-        </div>
+
         <p>&copy; SaynaxMarvel, Inc. 2022. We love Our Users!</p> 
+        <audio src="Assets/audio1.mp3" controls></audio>
+        </div>
+       
     </footer>
 </body>
 </html>
