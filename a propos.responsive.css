@@ -1,0 +1,86 @@
+/* pour le responsive  */
+@media screen and (max-width:768px)  {
+    /* pour le navigation  */
+    nav{
+        padding-left: 10px;
+    }
+    nav ul li {
+        display: none;
+    }
+    /* pour le header  */
+    header {
+        padding-bottom: 130px;
+        padding-top: 10px;
+    }
+    header h1{
+        padding-left: 30px;
+        padding-top: 10px;
+        font-size: 50px;
+    }
+    header p {
+        padding-left: 30px;
+        font-size: 20px;
+        padding-top: 0px;
+        padding-bottom: 140px;
+    }
+
+    /* pour le contenu main  */
+    main {
+        text-align: center;
+        padding: 50px 50px;
+    }
+    main p{
+        text-align: center;
+        font-size: 18px;
+    }
+    .borders {
+       width: 40%;
+       padding-left: 50px;
+       padding-right: 50px;
+       margin-left: 0;
+       margin-right: 0;
+    }
+    /* pour le footer  */
+    footer div i img {
+        margin: 20px 10px 20px 10px;
+    }
+    .mobile3 ul{
+        text-align: left;
+        padding-right: 290px;
+        margin-left: 10px;
+    }
+    .mobile div {
+        text-align: left;
+        padding-left: 150px;
+    }
+}
+@media screen and (max-width:648px)  {
+    * pour le footer  */
+    footer div i img {
+        margin: 20px 10px 20px 10px;
+    }
+    .mobile3 ul{
+        text-align: left;
+        padding-right: 190px;
+        margin-left: 10px;
+    }
+    .mobile div {
+        text-align: left;
+        padding-left: 100px;
+    }
+}
+@media screen and (max-width:586px)  {
+     /* pour le footer  */
+     footer div i img {
+        margin: 20px 10px 20px 10px;
+    }
+    .mobile3 ul{
+        text-align: left;
+        padding-right: 160px;
+        margin-left: 5px;
+    }
+    .mobile div {
+        text-align: left;
+        padding-left: 80px;
+    }
+}
