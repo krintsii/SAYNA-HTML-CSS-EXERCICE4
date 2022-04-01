@@ -10,7 +10,6 @@
     /* pour le section  */
     section {
         background-size: cover;
-        overflow: hidden;
     }
     section h1{
         font-size: 50px;
