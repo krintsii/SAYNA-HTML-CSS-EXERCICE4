@@ -1,0 +1,273 @@
+
+/* pour le tout  */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    overflow-x: hidden;
+}
+p{
+    margin-bottom: 0;
+    font-size: 14px;
+}
+a {
+    color: var(--blanc);
+    text-decoration: none;
+}
+a:hover {
+    color: var(--blanc);
+}
+:root{
+    --Rouge:#B11313;
+    --jaune:#f1c530;
+    --blanc:#FFFF;
+    --bleu:#114C92;
+    --noir:#000000;
+
+}
+
+@font-face {
+    font-family: 'FarFromHomecoming';
+    src: url(Assets/Far-From\ Homecoming\ Updated.otf);
+}
+/* pour le nav  */
+nav{
+    background-color: var(--Rouge);
+    padding: 20px;
+   
+}
+nav div img {
+    padding-left: 10px;
+}
+
+nav ul{
+    list-style: none;
+    color: var(--blanc);
+    font-weight: 400;
+}
+/* pour le contenu  */
+main{
+    padding-top: 20px;
+    background-color: var(--Rouge);
+    background-size: contain;
+    background-image: url(../Illustration/img1.png);
+    background-position: 100% 0%;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.marvel {
+
+    padding-top: 100px;
+    padding-left: 150px;
+    padding-bottom: 50px;
+}
+
+.marvel h1{
+    font-family: 'FarFromHomecoming' ;
+    font-size: 80px;
+    color: var(--blanc);
+    margin-top: 10rem;
+    margin-bottom: 70px;
+}
+/* les double boutton */
+.marvel button{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    border-radius: 25px;
+    font-weight: 700;
+    
+}
+.color{
+    color: var(--Rouge);
+}
+.border {
+    border: solid var(--blanc);
+    margin-left: 40px;
+    color: var(--blanc); 
+}
+main h4 {
+    font-family: 'Montserrat', sans-serif; 
+    color: var(--blanc);
+    font-weight: 600;
+    padding-bottom: 50px;
+}
+main p{
+    color: var(--blanc);
+    font-family: 'Montserrat', sans-serif; 
+}
+.cinéma{
+    padding-right: 70px;
+    text-align: center;
+}
+.col{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.col p{
+    font-family: 'Montserrat', sans-serif; 
+    text-align: justify;
+    font-size: 12px;
+}
+
+.col img {
+    margin-bottom: 50px;
+}
+.col ul{
+    color: var(--blanc);
+    font-weight: 400;
+    margin-bottom: 0;
+    font-size: 13px;
+    text-align: justify;
+}
+
+/* pour le section bleu  */
+section {
+    background-color: var(--bleu);
+    padding: 15px;
+    overflow: hidden;
+}
+
+.borders {
+    font-family: 'Montserrat', sans-serif; 
+    width: 40%;
+    border: solid var(--blanc);
+    color: var(--blanc);
+    padding: 10px;
+    border-radius: 45px;
+    margin-top: 30px;
+}
+.formulaire{
+    text-align: center;
+    margin-top: 50px;
+}
+input{
+    font-family: 'Montserrat', sans-serif; 
+    width: 80%;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: 20px;
+}
+
+
+.formulaire h1{
+    font-family: 'FarFromHomecoming' ;
+    color: var(--blanc);
+    padding-left: 50px;
+}
+.formulaire p{
+    text-align: center;
+    color: var(--blanc);
+}
+/* le deuxieme section (spiderman noir-)  */
+.spiderman-noir{
+    background-color: var(--Rouge);
+    background-image: url(../Illustration/img6.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 125% 0%;
+    padding: 10px 10px 0px 10px;
+    text-align: left;
+}
+.spiderman-noir h1{
+    font-family: 'FarFromHomecoming' ;
+    color: var(--blanc); 
+    font-size: 29px;
+    
+}
+.formulaire2{
+    margin-top: 8rem;
+    padding-left: 8rem;
+}
+.formulaire2 p{
+    font-family: 'Montserrat', sans-serif; 
+    color: var(--blanc);
+    font-size: 13px;
+
+    
+}
+.formulaire2 input{
+    width: 50%;
+    background-color: var(--Rouge);
+    border: 2px solid var(--blanc);
+    border-radius: 20px;
+    color: var(--blanc);
+    padding-left: 20px;
+
+}
+.formulaire2 input::placeholder{
+    color: var(--blanc);
+    
+}
+.label{
+    font-size: 15px;
+    color: var(--blanc);
+}
+
+.formulaire2 button{
+    font-family: 'Montserrat', sans-serif; 
+    border-radius: 20px;
+    margin-left: 70px;
+    margin-bottom: 50px;
+}
+
+
+
+.spiderman-noir img {
+    text-align: center;
+    transform: translateX(-25%);
+}
+/* pour le footer  */
+footer {
+    background-color: var(--noir);
+    font-family: 'Montserrat', sans-serif; 
+    padding-top: 50px;
+    padding-bottom: 30px;
+    width: 100%;
+}
+footer ul {
+    list-style: none;
+    text-align: center;
+    align-items: center;
+    color: var(--blanc);
+    margin-left: 80px;
+}
+footer ul li {
+   padding: 0 20px 0 20px;
+   font-size: 13px;
+   
+}
+.select{
+    background-color: var(--Rouge);
+    color: var(--blanc);
+    border: solid var(--noir);
+    width: 100%;
+    padding: 2px 40px 2px 5px ;
+    border-radius: 20px; 
+}
+
+footer div {
+    text-align: center;
+}
+footer div i img {
+    background-color: var(--Rouge);
+    border-radius: 20px;
+    padding: 10px ;
+    margin: 80px 10px 20px 10px;
+}
+footer p {
+    font-family: 'Montserrat', sans-serif; 
+    text-align: center;
+    color: var(--blanc);
+}
+footer audio {
+   padding-top: 20px;
+}
+
+

@@ -1,0 +1,219 @@
+/* pour le tout  */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    overflow-x: hidden;
+    color: var(--blanc);
+}
+p{
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+:root{
+    --Rouge:#B11313;
+    --jaune:#f1c530;
+    --blanc:#FFFF;
+    --bleu:#114C92;
+    --noir:#000000;
+}
+a {
+    color: var(--blanc);
+    text-decoration: none;
+}
+a:hover {
+    color: var(--blanc);
+}
+
+@font-face {
+    font-family: 'FarFromHomecoming';
+    src: url(Assets/Far-From\ Homecoming\ Updated.otf);
+}
+/* pour le nav  */
+nav{
+    background-color: var( --bleu);
+    padding: 20px;
+   
+}
+nav div img {
+    padding-left: 10px;
+}
+
+nav ul{
+    list-style: none;
+    color: var(--blanc);
+    font-weight: 400;
+}
+/* pour le header  */
+header{
+    background-image: url(../Illustration/img19.png);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 70px;
+    padding-right: 30px;
+}
+header h1{
+    font-family: 'FarFromHomecoming' ;
+    font-size: 100px;
+    margin-top: 250px;
+    margin-left: 50px;
+}
+header p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 50px;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+/* pour le video  */
+.video {
+    background-color: var(--bleu);   
+}
+
+.text {
+    margin-top: 60px;
+    margin-left: 60px;
+    margin-bottom: 70px;
+}
+.text h1{
+    font-family: 'FarFromHomecoming' ;
+    font-size: 35px;
+}
+.text p{
+    font-family: 'Montserrat', sans-serif;
+}
+video {
+    padding-right: 40px;
+    width: 600px;
+    height: 600px;
+}
+/* pour le fondation  */
+.fondations {
+    background-image: url(../Illustration/img20.png);
+    height: 40vh;
+    padding: 50px;
+    padding-left: 120px;
+}
+.fondations h1 {
+    font-family: 'FarFromHomecoming' ;
+    font-size: 45px;
+}
+.fondations p{
+    font-family: 'Montserrat', sans-serif;
+}
+/* pour le section  */
+section {
+    background-color: var(--bleu);
+    padding: 70px 90px 70px 90px;
+}
+section h1 {
+    font-family: 'FarFromHomecoming' ;
+}
+section p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    text-align: justify;
+
+}
+section p span{
+    font-weight: 700;
+}
+.peter{
+    position: relative;
+}
+.parker{
+    position: absolute;
+    transform: translate(65%, -50%);
+}
+.meilleur{
+    margin-left: 160px;
+}
+
+
+/* pour le main  */
+main {
+    background-color: var(--Rouge);
+}
+main h1{
+    font-family: 'FarFromHomecoming' ;
+    
+}
+main p {
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    font-size: 12px;
+}
+/* pour le section contien de plusieurs spiderman  */
+.univers{
+    background-image: url(../Illustration/img33.png);
+    background-size: cover;
+}
+.row-class {
+    width: 90%;
+}
+.spidey {
+    background-color: #0d5ab88a;
+    text-align: justify;
+    padding: 20px;
+    
+}
+.spidey h1 {
+    font-family: 'FarFromHomecoming' ;
+    font-size: 30px;
+    text-align: center;
+}
+.spidey p {
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+}
+
+/* pour le footer  */
+footer {
+    background-color: var(--noir);
+    font-family: 'Montserrat', sans-serif; 
+    padding-top: 50px;
+    padding-bottom: 30px;
+    width: 100%;
+}
+footer ul {
+    list-style: none;
+    text-align: center;
+    align-items: center;
+    color: var(--blanc);
+    margin-left: 80px;
+}
+footer ul li {
+   padding: 0 20px 0 20px;
+   font-size: 13px;
+   
+}
+.select{
+    background-color: var(--bleu);
+    color: var(--blanc);
+    border: solid var(--noir);
+    width: 100%;
+    padding: 2px 40px 2px 5px ;
+    border-radius: 20px; 
+}
+
+footer div {
+    text-align: center;
+}
+footer div i img {
+    background-color: var(--bleu);
+    border-radius: 20px;
+    padding: 10px ;
+    margin: 80px 10px 20px 10px;
+}
+footer p {
+    font-family: 'Montserrat', sans-serif; 
+    text-align: center;
+}

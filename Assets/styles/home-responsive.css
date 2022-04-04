@@ -1,0 +1,314 @@
+/* pour le responsive  */
+@media screen and (max-width:768px)  {
+    /* pour le navigation  */
+    nav{
+        background: transparent;
+        position: absolute;
+        padding-left: 60px;
+    }
+    nav ul li {
+        display: none;
+    }
+    /* pour le premier contenu  */
+    main{
+        background-position: 92% 0%;
+        padding-top: 150px;
+        
+    }
+    .phone1 {
+        padding-left: 50px;
+    }
+    .marvel {
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-bottom: 5px;
+    }
+    .marvel h1{
+        font-size: 40px;
+        margin: 0;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    .mobile1 {
+        display: none;
+        margin-left: 0;
+    }
+    .marvel h4{
+        padding-bottom: 10px;
+        padding-top: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .mobile2{
+        text-align: center;
+        padding-top: 80px;
+        margin: 0 auto;
+    }
+    /* pour le cinema de spiderman  */
+    .cinéma{
+        display: block;
+        padding-right: 0;
+        padding: 20px;
+    }
+    .col p{
+        text-align: center;
+    }
+    .col ul li{
+        text-align: center;
+        list-style: none;
+        
+    }
+    .col button {
+        margin-bottom: 70px;
+    }
+    /* pour le fond bleu  */
+    section .row {
+        background-image: url(Assets/Illustration/img5.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: block;
+        padding: 30px;
+    }
+    
+    section div img {
+        display: none;
+    }
+    /* pour le spiderman noir  */
+    .spiderman-noir{
+        background-position: 250% 100%;
+        background-size: contain;
+        display: block;
+        padding-bottom: 20px;
+    }
+    .spiderman-noir img{
+        display: none;
+    
+    }
+    .formulaire2{
+        margin-top: 1rem;
+        padding-left: 4rem;
+    }
+
+    /* pour le footer  */
+    footer div i img {
+        margin: 20px 10px 20px 10px;
+    }
+    .mobile3 ul{
+        text-align: left;
+        padding-right: 190px;
+        margin-left: 10px;
+    }
+    .mobile div {
+        text-align: left;
+        padding-left: 100px;
+    }
+
+}
+@media screen and (max-width:648px)  {
+    /* pour le navigation  */
+    nav{
+        background: transparent;
+        position: absolute;
+        padding-left: 60px;
+    }
+    nav ul li {
+        display: none;
+    }
+    /* pour le premier contenu  */
+    main{
+        background-position: 92% 0%;
+        padding-top: 150px;
+        
+    }
+    .phone1 {
+        padding-left: 50px;
+    }
+    .marvel {
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-bottom: 5px;
+    }
+    .marvel h1{
+        font-size: 40px;
+        margin: 0;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    .mobile1 {
+        display: none;
+        margin-left: 0;
+    }
+    .marvel h4{
+        padding-bottom: 10px;
+        padding-top: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .mobile2{
+        text-align: center;
+        padding-top: 80px;
+        margin: 0 auto;
+    }
+    /* pour le cinema de spiderman  */
+    .cinéma{
+        display: block;
+        padding-right: 0;
+        padding: 20px;
+    }
+    .col p{
+        text-align: center;
+    }
+    .col ul li{
+        text-align: center;
+        list-style: none;
+        
+    }
+    .col button {
+        margin-bottom: 70px;
+    }
+    /* pour le fond bleu  */
+    section .row {
+        background-image: url(Assets/Illustration/img5.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: block;
+        padding: 30px;
+    }
+    
+    section div img {
+        display: none;
+    }
+    /* pour le spiderman noir  */
+    .spiderman-noir{
+        background-position: 100px 100%;
+        background-size: contain;
+        display: block;
+        padding-bottom: 20px;
+    }
+    .spiderman-noir img{
+        display: none;
+    
+    }
+    .formulaire2{
+        margin-top: 1rem;
+        padding-left: 4rem;
+    }
+
+    /* pour le footer  */
+    footer div i img {
+        margin: 20px 10px 20px 10px;
+    }
+    .mobile3 ul{
+        text-align: left;
+        padding-right: 190px;
+        margin-left: 10px;
+    }
+    .mobile div {
+        text-align: left;
+        padding-left: 100px;
+    }
+}
+@media screen and (max-width:586px)  {
+    /* pour le navigation  */
+    nav{
+        background: transparent;
+        position: absolute;
+        padding-left: 60px;
+    }
+    nav ul li {
+        display: none;
+    }
+    /* pour le premier contenu  */
+    main{
+        background-position: 92% 0%;
+        padding-top: 150px;
+        
+    }
+    .phone1 {
+        padding-left: 50px;
+    }
+    .marvel {
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-bottom: 5px;
+    }
+    .marvel h1{
+        font-size: 40px;
+        margin: 0;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    .mobile1 {
+        display: none;
+        margin-left: 0;
+    }
+    .marvel h4{
+        padding-bottom: 10px;
+        padding-top: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .mobile2{
+        text-align: center;
+        padding-top: 80px;
+        margin: 0 auto;
+    }
+    /* pour le cinema de spiderman  */
+    .cinéma{
+        display: block;
+        padding-right: 0;
+        padding: 20px;
+    }
+    .col p{
+        text-align: center;
+    }
+    .col ul li{
+        text-align: center;
+        list-style: none;
+        
+    }
+    .col button {
+        margin-bottom: 70px;
+    }
+    /* pour le fond bleu  */
+    section .row {
+        background-image: url(Assets/Illustration/img5.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: block;
+        padding: 30px;
+    }
+    
+    section div img {
+        display: none;
+    }
+    /* pour le spiderman noir  */
+    .spiderman-noir{
+        background-position:90px 100%;
+        background-size: contain;
+        display: block;
+        padding-bottom: 20px;
+    }
+    .spiderman-noir img{
+        display: none;
+    
+    }
+    .formulaire2{
+        margin-top: 1rem;
+        padding-left: 4rem;
+    }
+
+    /* pour le footer  */
+    footer div i img {
+        margin: 20px 10px 20px 10px;
+    }
+    .mobile3 ul{
+        text-align: left;
+        padding-right: 160px;
+        margin-left: 5px;
+    }
+    .mobile div {
+        text-align: left;
+        padding-left: 80px;
+    }
+}

@@ -1,0 +1,104 @@
+/* pour le responsive  */
+@media screen and (max-width:768px)  {
+    /* pour le navigation  */
+    nav{
+        background: transparent;
+        position: absolute;
+        padding-left: 60px;
+    }
+    nav ul li {
+        display: none;
+    }
+    /* pour le premier contenu  */
+    header {
+        background-position: 60% 100%;
+    }
+    header h1 {
+        font-size: 42px;
+    }
+    header p {
+        font-size: 19px;
+    }
+    /* pour le liste des adversaire  */
+    section .row .col figure img {
+        width: 100%;
+    }
+    .d-block {
+        
+        width: 540px;
+    }
+    
+    figcaption h4 {
+        padding-top: 80px;
+    }
+
+    /* pour le footer  */
+    footer div i img {
+        margin: 20px 10px 20px 10px;
+    }
+    .mobile3 ul{
+        text-align: left;
+        padding-right: 190px;
+        margin-left: 10px;
+    }
+    .mobile div {
+        text-align: left;
+        padding-left: 100px;
+    }
+}
+@media screen and (max-width:681px) {
+    .d-block {
+        
+        width: 450px;
+    }
+}
+@media screen and (max-width:590px) {
+    .d-block {
+        
+        width: 400px;
+    }
+}
+
+
+@media screen and (max-width:570px) {
+    figcaption {
+        width: 406px;
+        height: 380px;
+        
+    }
+    
+    
+    /* pour le footer  */
+    footer div i img {
+        margin: 20px 10px 20px 10px;
+    }
+    .mobile3 ul{
+        text-align: left;
+        padding-right: 100px;
+        margin-left: 10px;
+    }
+    .mobile div {
+        text-align: left;
+        padding-left: 90px;
+    }
+}
+
+@media screen and (max-width:545px) {
+    .d-block {
+        
+        width: 350px;
+    }
+}
+@media screen and (max-width:482px) {
+    .d-block {
+        
+        width: 300px;
+    }
+}
+
+@media screen and (max-width:418px) {
+    .d-block {
+        
+        width: 200px;
+    }
+}
